@@ -1,0 +1,74 @@
+img{
+    height: 150px;
+    width: 100%;
+    object-fit: cover;
+    }
+button:active{
+    opacity: 0.7;
+}
+.buy{
+    border-radius:8px ;
+    border-width: 1px;
+    padding: 5px 12px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    background-color: rgb(168, 229, 168);
+}
+p:not(.name){
+    display: inline-block;
+    margin-right:8px ;
+    margin-left:8px ;
+}
+.parent{
+    width: 180px;
+    border-radius: 2px;
+    border-width:1px;
+    text-align: center;
+}
+.parent:hover{
+    box-shadow: 3px 4px 10px rgb(172, 172, 172);
+
+}
+.bag-container{
+    display: flex;
+    justify-content:center;
+}
+.minus{
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+    border: solid 1px;
+    background-color: white;
+}
+.add{
+    background-color: rgb(0, 0, 0);
+    border: none;
+    cursor: pointer;
+    color:white;
+    border-radius: 50%;
+}
+.functions{
+    margin-top: 8px;
+    text-align: center;
+}
+.price{
+    margin: 0;
+    color: green;
+    display: inline;
+}
+.payment{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input{
+    height: 12px;
+}
+.pay{
+    cursor: pointer;
+    border-radius: 4px;
+    border: none;
+    background-color: rgb(23, 212, 23);
+    margin-left: 8px;
+    padding: 2px 5px;
+}
