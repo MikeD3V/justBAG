@@ -30,7 +30,7 @@ buy.onclick = function(){
                 alert('Kuwang money bruh')
             }
             else{
-            alert('Item : Gucci bag\nMoney: '+money+'\n'+'Change: '+change)
+            alert('Item : Gucci bag\nMoney: '+money+'\n'+'Total:'+magkano+'\nChange: '+change)
         }
     }
 }
